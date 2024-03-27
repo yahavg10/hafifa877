@@ -13,5 +13,7 @@ def get_digit(name: str) -> int | bool:
     }
     
     return digits_mapping.get(name, False)
+myn = "three"
+print(get_digit(myn.lower()))
 
-print(get_digit('three'))
+#done
